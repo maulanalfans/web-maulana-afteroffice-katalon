@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VLD 1 - Input blank form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb5c538e-0a88-4b6a-8424-42bc42568f21</testCaseGuid>
+</TestCaseEntity>
