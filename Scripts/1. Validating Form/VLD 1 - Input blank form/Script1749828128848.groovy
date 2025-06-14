@@ -18,12 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://demoqa.com/automation-practice-form')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Practice Form/Title Name - Practice Form'),0)
-
-String image = 'https://media.sproutsocial.com/uploads/meme-example.jpg';
-WebUI.uploadFile(findTestObject('Object Repository/Practice Form/file - Picture'), image)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/button - Submit'), 0)
 

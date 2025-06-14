@@ -6,4 +6,56 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>eb5c538e-0a88-4b6a-8424-42bc42568f21</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value></value>
+      <variableId>abfefe1a-257a-4602-a993-f83658958c24</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10b71375-af61-4c96-b7d2-2f9dbd79f55f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7b6a270-dd4e-4624-a5ff-6fdeebe22f3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62ce6cf4-9530-490e-9114-3b98e9e00ca1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abfefe1a-257a-4602-a993-f83658958c24</id>
+      <masked>false</masked>
+      <name>firsName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>10b71375-af61-4c96-b7d2-2f9dbd79f55f</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a7b6a270-dd4e-4624-a5ff-6fdeebe22f3c</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62ce6cf4-9530-490e-9114-3b98e9e00ca1</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
 </TestCaseEntity>

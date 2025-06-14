@@ -6,12 +6,11 @@
    <elementGuidId>c3d7f2ff-557c-45c0-9330-712d7a538597</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//label[@for='gender-radio-1']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='radio' and @name='gender' and @value='Male']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
