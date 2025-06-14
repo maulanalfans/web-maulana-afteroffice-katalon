@@ -1,0 +1,140 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl(baseUrl)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. if (gender == "male")
+
+9
+00:00:00,000 --> 00:00:00,000
+3. click(findTestObject("Object Repository/Practice Form/radiobox - Other"))
+
+10
+00:00:00,000 --> 00:00:00,000
+33. scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0)
+
+11
+00:00:00,000 --> 00:00:00,000
+37. setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile)
+
+12
+00:00:00,000 --> 00:00:00,000
+41. scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0)
+
+13
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/Practice Form/txtfield - Birth date"))
+
+14
+00:00:00,000 --> 00:00:00,000
+49. click(findTestObject("Object Repository/Practice Form/specific date picker"))
+
+15
+00:00:00,000 --> 00:00:00,000
+53. scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0)
+
+16
+00:00:00,000 --> 00:00:00,000
+57. if (subjects != null)
+
+17
+00:00:00,000 --> 00:00:00,000
+1. setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects)
+
+18
+00:00:00,000 --> 00:00:00,000
+61. sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString())
+
+19
+00:00:00,000 --> 00:00:00,000
+65. scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0)
+
+20
+00:00:00,000 --> 00:00:00,000
+69. if (hobbies == "sports")
+
+21
+00:00:00,000 --> 00:00:00,000
+3. click(findTestObject("Object Repository/Practice Form/checkbox - Music"))
+
+22
+00:00:00,000 --> 00:00:00,000
+73. imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg"
+
+23
+00:00:00,000 --> 00:00:00,000
+77. uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath)
+
+24
+00:00:00,000 --> 00:00:00,000
+81. scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0)
+
+25
+00:00:00,000 --> 00:00:00,000
+85. setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress)
+
+26
+00:00:00,000 --> 00:00:00,000
+89. scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0)
+
+27
+00:00:00,000 --> 00:00:00,000
+93. if (state != null && state != "")
+
+28
+00:00:00,000 --> 00:00:00,000
+2. comment("data state is null")
+
+29
+00:00:00,000 --> 00:00:00,000
+97. if (city != null && city != "")
+
+30
+00:00:00,000 --> 00:00:00,000
+2. comment("data city is null")
+
+31
+00:00:00,000 --> 00:00:00,000
+101. scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0)
+
+32
+00:00:00,000 --> 00:00:00,000
+105. click(findTestObject("Object Repository/Practice Form/button - Submit"))
+
+33
+00:00:00,000 --> 00:00:00,000
+109. verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE)
+
+34
+00:00:00,000 --> 00:00:00,000
+113. markPassed("Validation case : " + testNote)
+
+35
+00:00:00,000 --> 00:00:00,000
+117. closeBrowser()
+

@@ -6,12 +6,11 @@
    <elementGuidId>2ad8a20c-55d4-41f5-beee-c187dead756a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//label[@for='hobbies-checkbox-3']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='checkbox' and @id='hobbies-checkbox-3']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

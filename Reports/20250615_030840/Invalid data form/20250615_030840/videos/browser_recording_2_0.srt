@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl(baseUrl)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/Practice Form/button - Submit"))
+
+6
+00:00:00,000 --> 00:00:00,000
+21. verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 0)
+

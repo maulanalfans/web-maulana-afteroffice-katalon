@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://demoqa.com/automation-practice-form')
 WebUI.verifyElementPresent(findTestObject('Object Repository/Practice Form/Title Name - Practice Form'),0)
 WebUI.closeBrowser()

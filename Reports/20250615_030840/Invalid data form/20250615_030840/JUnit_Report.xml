@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invalid data form" time="129.497" tests="9" failures="0" errors="0">
+   <testsuite name="Invalid data form" tests="9" failures="0" errors="0" time="129.497" skipped="0" timestamp="15-06-2025T03:08:46" hostname="Maulana - 192.168.0.126" id="Test Suites/Invalid data form">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\M S I\\Katalon Studio\\web-maulana-afteroffice-katalon\\Reports\\20250615_030840\\Invalid data form\\20250615_030840"/>
+         <property name="logFiles" value="C:\\Users\\M S I\\Katalon Studio\\web-maulana-afteroffice-katalon\\Reports\\20250615_030840\\Invalid data form\\20250615_030840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Maulana - 192.168.0.126"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 137.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.126"/>
+         <property name="sessionId" value="770c0eef693a748e0b069d985beb1e27"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PF 1 - Load practice form" time="11.01" classname="Test Cases/PF 1 - Load practice form" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:08:47 - [TEST_CASE][PASSED] - Test Cases/PF 1 - Load practice form: Test Cases/PF 1 - Load practice form
+
+15-06-2025T03:08:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:08:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:08:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:08:49 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:08:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:08:49 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:08:57 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:08:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:08:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:08:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:08:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 1 - Input blank form" time="9.481" classname="Test Cases/1. Validating Form/VLD 1 - Input blank form" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:08:58 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 1 - Input blank form: Test Cases/1. Validating Form/VLD 1 - Input blank form
+
+15-06-2025T03:08:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:08:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:08:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:08:59 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:08:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:08:59 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:06 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:06 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:07 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 0): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '30' second(s)
+
+15-06-2025T03:09:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="18.85" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:09:07 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:09:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:09:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-06-2025T03:09:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:09:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:09:09 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:09:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:09:09 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:21 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text 'Maulana' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:09:21 - [MESSAGE][PASSED] - Text 'Maulana' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text '' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:09:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'maulanaalfany@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:09:21 - [MESSAGE][PASSED] - Text 'maulanaalfany@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - if (gender == "male"): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/radiobox - Male")): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:09:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:09:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:09:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - if (subjects != null): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:09:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - if (hobbies == "sports"): Object: 'Object Repository/Practice Form/checkbox - Sports' is clicked on
+
+15-06-2025T03:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/checkbox - Sports")): Object: 'Object Repository/Practice Form/checkbox - Sports' is clicked on
+
+15-06-2025T03:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/checkbox - Sports' is clicked on
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:09:23 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:09:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text 'Jl. Adi Sucipto Jakarta' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:09:23 - [MESSAGE][PASSED] - Text 'Jl. Adi Sucipto Jakarta' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:09:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - if (state != null && state != ""): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - State"), state): Text 'NCR' is set on object 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:23 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+15-06-2025T03:09:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+15-06-2025T03:09:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - State"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:24 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:24 - [TEST_STEP][PASSED] - if (city != null && city != ""): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - City"), city): Text 'Delhi' is set on object 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:09:24 - [MESSAGE][PASSED] - Text 'Delhi' is set on object 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:09:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+15-06-2025T03:09:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+15-06-2025T03:09:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - City"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:09:25 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:09:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:09:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:09:26 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input tanpa lastname
+
+15-06-2025T03:09:26 - [MESSAGE][PASSED] - Validation case : input tanpa lastname
+
+15-06-2025T03:09:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:09:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="11.327" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:09:26 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:09:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:09:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:09:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:09:27 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:09:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:09:27 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:35 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text '' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:09:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text 'Alfan' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:09:35 - [MESSAGE][PASSED] - Text 'Alfan' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'maulanaalfany@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Text 'maulanaalfany@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - if (gender == "male"): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/radiobox - Male")): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - if (subjects != null): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:36 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - if (hobbies == "sports"): null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - else if (hobbies == "reading"): Object: 'Object Repository/Practice Form/checkbox - Reading' is clicked on
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/checkbox - Reading")): Object: 'Object Repository/Practice Form/checkbox - Reading' is clicked on
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/checkbox - Reading' is clicked on
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - if (state != null && state != ""): null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - else: data state is null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - comment("data state is null"): data state is null
+
+15-06-2025T03:09:37 - [MESSAGE][INFO] - data state is null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - if (city != null && city != ""): null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - else: data city is null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - comment("data city is null"): data city is null
+
+15-06-2025T03:09:37 - [MESSAGE][INFO] - data city is null
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input tanpa firstname
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Validation case : input tanpa firstname
+
+15-06-2025T03:09:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:09:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="15.731" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:09:37 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:09:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:09:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:09:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:09:38 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:09:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:09:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text '' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text '' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'maulanaalfany@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Text 'maulanaalfany@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - if (gender == "male"): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/radiobox - Male")): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - if (subjects != null): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - if (hobbies == "sports"): null
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - else if (hobbies == "reading"): null
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - else if (hobbies == "music"): Object: 'Object Repository/Practice Form/checkbox - Music' is clicked on
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/checkbox - Music")): Object: 'Object Repository/Practice Form/checkbox - Music' is clicked on
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/checkbox - Music' is clicked on
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - if (state != null && state != ""): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - State"), state): Text 'NCR' is set on object 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:52 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - State"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - if (city != null && city != ""): null
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - else: data city is null
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - comment("data city is null"): data city is null
+
+15-06-2025T03:09:53 - [MESSAGE][INFO] - data city is null
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input tanpa name
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Validation case : input tanpa name
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:09:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="16.678" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:09:53 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:09:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:09:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:09:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:09:54 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:09:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:09:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:07 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:07 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text 'Maulana' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:07 - [MESSAGE][PASSED] - Text 'Maulana' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text 'Alfan' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Text 'Alfan' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'maulana' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Text 'maulana' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - if (gender == "male"): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/radiobox - Male")): Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/radiobox - Male' is clicked on
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - if (subjects != null): Text 'Maths' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text 'Maths' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Text 'Maths' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - if (hobbies == "sports"): null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - else if (hobbies == "reading"): Object: 'Object Repository/Practice Form/checkbox - Reading' is clicked on
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/checkbox - Reading")): Object: 'Object Repository/Practice Form/checkbox - Reading' is clicked on
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/checkbox - Reading' is clicked on
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - if (state != null && state != ""): null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - else: data state is null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - comment("data state is null"): data state is null
+
+15-06-2025T03:10:09 - [MESSAGE][INFO] - data state is null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - if (city != null && city != ""): null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - else: data city is null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - comment("data city is null"): data city is null
+
+15-06-2025T03:10:09 - [MESSAGE][INFO] - data city is null
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:10 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:10 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input invalid email format
+
+15-06-2025T03:10:10 - [MESSAGE][PASSED] - Validation case : input invalid email format
+
+15-06-2025T03:10:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:10:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="14.754" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:10:10 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:10:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:10:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:10:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:10:11 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:10:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:10:11 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:22 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text 'Lucinta' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Text 'Lucinta' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text 'Luna' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Text 'Luna' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'lucina@mail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Text 'lucina@mail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - if (gender == "male"): null
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - else if (gender == "female"): null
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - else if (gender == "other"): Object: 'Object Repository/Practice Form/radiobox - Other' is clicked on
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/radiobox - Other")): Object: 'Object Repository/Practice Form/radiobox - Other' is clicked on
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/radiobox - Other' is clicked on
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - if (subjects != null): Text 'English' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text 'English' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Text 'English' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - if (hobbies == "sports"): null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - else if (hobbies == "reading"): null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - else if (hobbies == "music"): Object: 'Object Repository/Practice Form/checkbox - Music' is clicked on
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/checkbox - Music")): Object: 'Object Repository/Practice Form/checkbox - Music' is clicked on
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/checkbox - Music' is clicked on
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - if (state != null && state != ""): null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - else: data state is null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - comment("data state is null"): data state is null
+
+15-06-2025T03:10:24 - [MESSAGE][INFO] - data state is null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - if (city != null && city != ""): null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - else: data city is null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - comment("data city is null"): data city is null
+
+15-06-2025T03:10:24 - [MESSAGE][INFO] - data city is null
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input empty mobile phone
+
+15-06-2025T03:10:24 - [MESSAGE][PASSED] - Validation case : input empty mobile phone
+
+15-06-2025T03:10:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:10:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="16.114" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:10:25 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:10:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:10:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:10:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:10:26 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:10:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:10:26 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:36 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:36 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text 'Ahmad' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:36 - [MESSAGE][PASSED] - Text 'Ahmad' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text 'Sembiring' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Text 'Sembiring' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'ahmadsembiring@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Text 'ahmadsembiring@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - if (gender == "male"): null
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - else if (gender == "female"): null
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - else if (gender == "other"): null
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - else: User not click the gender radio option
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - markPassed("User not click the gender radio option"): User not click the gender radio option
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - User not click the gender radio option
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Text '0812312398' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - if (subjects != null): Text 'Economics' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text 'Economics' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Text 'Economics' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - if (hobbies == "sports"): null
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text 'Jl. Adi Sucipto Jakarta' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Text 'Jl. Adi Sucipto Jakarta' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - if (state != null && state != ""): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - State"), state): Text 'NCR' is set on object 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:10:38 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:10:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+15-06-2025T03:10:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+15-06-2025T03:10:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - State"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:10:39 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - State'
+
+15-06-2025T03:10:39 - [TEST_STEP][PASSED] - if (city != null && city != ""): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:10:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - City"), city): Text 'Delhi' is set on object 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:10:39 - [MESSAGE][PASSED] - Text 'Delhi' is set on object 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:10:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+15-06-2025T03:10:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+15-06-2025T03:10:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - City"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:10:40 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Practice Form/txtfield - City'
+
+15-06-2025T03:10:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:40 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:41 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input empty gender
+
+15-06-2025T03:10:41 - [MESSAGE][PASSED] - Validation case : input empty gender
+
+15-06-2025T03:10:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:10:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" time="14.838" classname="Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation" status="PASSED">
+         <system-out><![CDATA[15-06-2025T03:10:41 - [TEST_CASE][PASSED] - Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation
+
+15-06-2025T03:10:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-06-2025T03:10:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-06-2025T03:10:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-06-2025T03:10:42 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+15-06-2025T03:10:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-06-2025T03:10:42 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Practice Form/Title Name - Practice Form"), 0): Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Practice Form/Title Name - Practice Form' is present
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - First name"), firstName): Text 'Breaking' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Text 'Breaking' is set on object 'Object Repository/Practice Form/txtfield - First name'
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Last name"), lastName): Text 'Habbit' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Text 'Habbit' is set on object 'Object Repository/Practice Form/txtfield - Last name'
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - User Email"), email): Text 'brhabit@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Text 'brhabit@gmail.com' is set on object 'Object Repository/Practice Form/txtfield - User Email'
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/radiobox - Male"), 0): Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/radiobox - Male' successfully
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - if (gender == "male"): null
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - else if (gender == "female"): Object: 'Object Repository/Practice Form/radiobox - Female' is clicked on
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/radiobox - Female")): Object: 'Object Repository/Practice Form/radiobox - Female' is clicked on
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/radiobox - Female' is clicked on
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Mobile number' successfully
+
+15-06-2025T03:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Mobile number"), mobile): Text '089' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Text '089' is set on object 'Object Repository/Practice Form/txtfield - Mobile number'
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Birth date"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Birth date' successfully
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/txtfield - Birth date")): Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/txtfield - Birth date' is clicked on
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/specific date picker")): Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/specific date picker' is clicked on
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - Subjects' successfully
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - if (subjects != null): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), subjects): Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Practice Form/txtfield - Subjects"), TAB.toString()): Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Practice Form/txtfield - Subjects'
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/checkbox - Sports"), 0): Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/checkbox - Sports' successfully
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - if (hobbies == "sports"): null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - imagePath = getProjectDir() + "/Include/image/gambarDummy.jpeg": null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Practice Form/file - Picture"), imagePath): File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - File 'C:/Users/M S I/Katalon Studio/web-maulana-afteroffice-katalon/Include/image/gambarDummy.jpeg' sent to object: 'Object Repository/Practice Form/file - Picture'
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/textarea - Current address"), 0): Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/textarea - Current address' successfully
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Practice Form/textarea - Current address"), currentAddress): Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Practice Form/textarea - Current address'
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/txtfield - State"), 0): Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/txtfield - State' successfully
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - if (state != null && state != ""): null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - else: data state is null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - comment("data state is null"): data state is null
+
+15-06-2025T03:10:55 - [MESSAGE][INFO] - data state is null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - if (city != null && city != ""): null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - else: data city is null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - comment("data city is null"): data city is null
+
+15-06-2025T03:10:55 - [MESSAGE][INFO] - data city is null
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Practice Form/button - Submit"), 0): Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Practice Form/button - Submit' successfully
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Practice Form/button - Submit")): Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Practice Form/button - Submit' is clicked on
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Modal/txt - Modal title"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Modal/txt - Modal title' located by 'By.xpath: //div[@id='example-modal-sizes-title-lg']' is not present after '2' second(s)
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - markPassed("Validation case : " + testNote): Validation case : input invalid mobile
+
+15-06-2025T03:10:55 - [MESSAGE][PASSED] - Validation case : input invalid mobile
+
+15-06-2025T03:10:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-06-2025T03:10:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-06-2025T03:08:46 - [TEST_SUITE][PASSED] - Invalid data form: Test Cases/1. Validating Form/VLD 2 - Mandatory field negative validation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -18,6 +18,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.openBrowser('')
 
@@ -52,41 +53,59 @@ WebUI.click(findTestObject('Object Repository/Practice Form/txtfield - Birth dat
 WebUI.click(findTestObject('Object Repository/Practice Form/specific date picker'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/txtfield - Subjects'), 0)
-WebUI.setText(findTestObject('Object Repository/Practice Form/txtfield - Subjects'), subjects)
+if(subjects != null) {
+	WebUI.setText(findTestObject('Object Repository/Practice Form/txtfield - Subjects'), subjects)
+	WebUI.sendKeys(findTestObject('Object Repository/Practice Form/txtfield - Subjects'), Keys.TAB.toString())
+}else {
+	WebUI.comment('data subjects is null')
+}
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/checkbox - Sports'), 0)
-if (gender == 'sports') {
+if (hobbies == 'sports') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Sports'))
-} else if (gender == 'reading') {
+} else if (hobbies == 'reading') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Reading'))
-} else if (gender == 'music') {
+} else if (hobbies == 'music') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Music'))
-} else {
+} else if(hobbies == null){
 	KeywordUtil.markPassed('User not choosing hobbies section')
 }
+
+String imagePath = RunConfiguration.getProjectDir() + '/Include/image/gambarDummy.jpeg'
+WebUI.uploadFile(findTestObject('Object Repository/Practice Form/file - Picture'), imagePath)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/textarea - Current address'), 0)
 WebUI.setText(findTestObject('Object Repository/Practice Form/textarea - Current address'), currentAddress)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/txtfield - State'), 0)
 
-if(state == null) {
+if(state != null && state != '') {
 	WebUI.setText(findTestObject('Object Repository/Practice Form/txtfield - State'), state)
+	WebUI.delay(1)
+	WebUI.sendKeys(findTestObject('Object Repository/Practice Form/txtfield - State'), Keys.TAB.toString())
 }else {
 	WebUI.comment('data state is null')
 }
-WebUI.sendKeys(findTestObject('Object Repository/Practice Form/txtfield - State'), Keys.TAB.toString())
 
-if(city == null) {
+if(city != null && city != '') {
 	WebUI.setText(findTestObject('Object Repository/Practice Form/txtfield - City'), city)
+	WebUI.delay(1)
+	WebUI.sendKeys(findTestObject('Object Repository/Practice Form/txtfield - City'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 }else {
 	WebUI.comment('data city is null')
 }
-WebUI.sendKeys(findTestObject('Object Repository/Practice Form/txtfield - State'), Keys.TAB.toString())
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/button - Submit'), 0)
 WebUI.click(findTestObject('Object Repository/Practice Form/button - Submit'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Modal/txt - Modal title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+//nyontek syntax dari chatgpt, iklan ganggu buat dapetin button close modal
+WebUI.executeJavaScript("document.getElementById('fixedban')?.remove();", null)
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Object Repository/Modal/txt - Modal title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('Object Repository/Modal/btn - Modal close'))
+//
+//WebUI.verifyElementNotPresent(findTestObject('Object Repository/Modal/txt - Modal title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+//
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Practice Form/Title Name - Practice Form'), 0)
+
+//WebUI.closeBrowser()
