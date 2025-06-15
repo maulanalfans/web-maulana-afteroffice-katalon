@@ -35,11 +35,11 @@ WebUI.setText(findTestObject('Object Repository/Practice Form/txtfield - Last na
 WebUI.setText(findTestObject('Object Repository/Practice Form/txtfield - User Email'), email)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/radiobox - Male'), 0)
-if (gender == 'male') {
+if (gender == 'Male') {
     WebUI.click(findTestObject('Object Repository/Practice Form/radiobox - Male'))
-} else if (gender == 'female') {
+} else if (gender == 'Female') {
     WebUI.click(findTestObject('Object Repository/Practice Form/radiobox - Female'))
-} else if (gender == 'other') {
+} else if (gender == 'Other') {
     WebUI.click(findTestObject('Object Repository/Practice Form/radiobox - Other'))
 } else {
     KeywordUtil.markPassed('User not click the gender radio option')
@@ -61,13 +61,13 @@ if(subjects != null) {
 WebUI.sendKeys(findTestObject('Object Repository/Practice Form/txtfield - Subjects'), Keys.TAB.toString())
 
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/checkbox - Sports'), 0)
-if (hobbies == 'sports') {
+if (hobbies == 'Sports') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Sports'))
-} else if (hobbies == 'reading') {
+} else if (hobbies == 'Reading') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Reading'))
-} else if (hobbies == 'music') {
+} else if (hobbies == 'Music') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Music'))
-} else if(hobbies == null){
+} else if(hobbies == ''){
 	KeywordUtil.markPassed('User not choosing hobbies section')
 }
 

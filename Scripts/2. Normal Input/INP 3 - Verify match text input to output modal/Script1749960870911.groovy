@@ -98,13 +98,92 @@ if(city != null && city != '') {
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/button - Submit'), 0)
 WebUI.click(findTestObject('Object Repository/Practice Form/button - Submit'))
 
-WebUI.executeJavaScript("document.getElementById('fixedban')?.remove();", null)
+WebUI.executeJavaScript("document.getElementById('fixedban')?.remove();", null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Modal/txt - Modal title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/Modal/btn - Modal close'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Modal/txt - Modal title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+String data_studentName = WebUI.getText(findTestObject('Object Repository/Modal/data - Student name'))
+String studentName = firstName+' '+lastName
+WebUI.verifyMatch(studentName, data_studentName, false)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Practice Form/Title Name - Practice Form'), 0)
+String data_studentEmail = WebUI.getText(findTestObject('Object Repository/Modal/data - Student email'))
+WebUI.verifyMatch(email, data_studentEmail, false)
+
+String data_studentGender = WebUI.getText(findTestObject('Object Repository/Modal/data - Student gender'))
+WebUI.verifyMatch(gender, data_studentGender, false)
+
+String data_studentMobile = WebUI.getText(findTestObject('Object Repository/Modal/data - Student mobile'))
+WebUI.verifyMatch(mobile, data_studentMobile, false)
+
+String studentBirthDate = WebUI.getAttribute(findTestObject('Object Repository/Practice Form/txtfield - Birth date'), 'value')
+String[] parts = studentBirthDate.split(" ")
+String month = "${parts[1]}"
+String longMonth = ''
+switch (month) {
+	case 'Jan':
+		longMonth = 'January'
+		break
+	case 'Feb':
+		longMonth = 'February'
+		break
+	case 'Mar':
+		longMonth = 'March'
+		break
+	case 'Apr':
+		longMonth = 'April'
+		break
+	case 'May':
+		longMonth = 'May'
+		break
+	case 'Jun':
+		longMonth = 'June'
+		break
+	case 'Jul':
+		longMonth = 'July'
+		break
+	case 'Aug':
+		longMonth = 'August'
+		break
+	case 'Sep':
+		longMonth = 'September'
+		break
+	case 'Oct':
+		longMonth = 'October'
+		break
+	case 'Nov':
+		longMonth = 'November'
+		break
+	case 'Dec':
+		longMonth = 'December'
+		break
+}
+String result_studentBirthDate = "${parts[0]} "+longMonth+",${parts[2]}"
+
+String data_studentBirthDate = WebUI.getText(findTestObject('Object Repository/Modal/data - Student date of birth'))
+WebUI.verifyMatch(result_studentBirthDate, data_studentBirthDate, false)
+
+String data_studentSubjects = WebUI.getText(findTestObject('Object Repository/Modal/data - Student subjects'))
+WebUI.verifyMatch(subjects, data_studentSubjects, false)
+
+String data_studentHobbies = WebUI.getText(findTestObject('Object Repository/Modal/data - Student hobbies'))
+WebUI.verifyMatch(hobbies, data_studentHobbies, false)
+
+String data_studentPicture = WebUI.getText(findTestObject('Object Repository/Modal/data - Student picture'))
+WebUI.verifyMatch('gambarDummy.jpeg', data_studentPicture, false)
+
+String data_studentAddress = WebUI.getText(findTestObject('Object Repository/Modal/data - Student address'))
+WebUI.verifyMatch(currentAddress,data_studentAddress, false)
+
+String studentStateCity = ''
+if(state != '' && city == '') {
+	studentStateCity = ''
+}else if(state == '') {
+	studentStateCity = ''
+}else if(state != '' && city != '') {
+	studentStateCity = state+' '+city
+}
+
+String data_studentStateCity = WebUI.getText(findTestObject('Object Repository/Modal/data - Student state and city'))
+WebUI.verifyMatch(studentStateCity, data_studentStateCity, false)
 
 WebUI.closeBrowser()
