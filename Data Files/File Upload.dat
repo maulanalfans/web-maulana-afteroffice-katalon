@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>File Upload</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4f5d25fe-7847-42c4-9c75-862610c1a722</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Maulana Alfan maulanaalfany%40gmail.com Male 0812345678 Maths Reading null Jl.+Mangga+murah+nomor+23+Malang+Jawa+Timur Haryana Karnal input+complete+data</data>
+   <data>Don Andres null Female 0839402981 English Sports null Jl.+Bernabeu+utara+56+Madrid NCR Delhi input+without+email+%28optional%29</data>
+   <data>Daje Roma romadaje%40mail.com Male 0839273645 null Music null Jl.+Bernabeu+utara+56+Madrid Haryana Karnal input+without+subjects+%28optional%29</data>
+   <data>Visca Barca barcavisca%40camp.com Male 0392812387 Maths null null Jl.+Camp+Nou+23+Spain Haryana Karnal input+without+hobbies+%28optional%29</data>
+   <data>Forza Milan milanforza%40sansiro.com Male 0382938291 English Sports null null NCR Delhi input+without+address+%28optional%29</data>
+   <data>Bravo TNI tnibravo%40military.com Male 0341034123 Economics Reading null Jl.+Camp+Nou+23+Spain null null input+without+state+%28optional%29</data>
+   <data>Presisi Polri polrihehe%40kocak.com Male 0372837182 Economics Reading null Jl.+Camp+Nou+23+Spain Haryana+ null input+without+city+%28optional%29+output+null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>firstName</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>lastName</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>email</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>gender</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>mobile</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>subjects</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>hobbies</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>picture</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>currentAddress</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>state</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>city</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>test note</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
