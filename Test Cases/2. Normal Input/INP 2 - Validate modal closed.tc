@@ -88,7 +88,7 @@
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'male'</defaultValue>
+      <defaultValue>'Male'</defaultValue>
       <description></description>
       <id>7d1f5e92-4fcb-4ccb-87d4-71062e3a7d17</id>
       <masked>false</masked>
@@ -109,7 +109,7 @@
       <name>subjects</name>
    </variable>
    <variable>
-      <defaultValue>'reading'</defaultValue>
+      <defaultValue>'Reading'</defaultValue>
       <description></description>
       <id>eaa144b7-80fe-48f1-b9f3-03bde7c11bed</id>
       <masked>false</masked>

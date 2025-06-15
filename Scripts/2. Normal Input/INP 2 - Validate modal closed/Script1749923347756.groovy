@@ -63,12 +63,15 @@ if(subjects != null) {
 WebUI.scrollToElement(findTestObject('Object Repository/Practice Form/checkbox - Sports'), 0)
 if (hobbies == 'Sports') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Sports'))
-} else if (hobbies == 'Reading') {
+}else if (hobbies == 'Reading') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Reading'))
-} else if (hobbies == 'Music') {
+}else if (hobbies == 'Music') {
 	WebUI.click(findTestObject('Object Repository/Practice Form/checkbox - Music'))
-} else if(hobbies == ''){
+}else if(hobbies == ''){
 	KeywordUtil.markPassed('User not choosing hobbies section')
+}else {
+	KeywordUtil.markError('Undefined value in hobbies variable')
+	
 }
 
 String imagePath = RunConfiguration.getProjectDir() + '/Include/image/gambarDummy.jpeg'
