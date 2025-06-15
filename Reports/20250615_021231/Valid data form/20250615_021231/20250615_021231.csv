@@ -1,0 +1,292 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Valid data form,Chrome 137.0.0.0,,,15-06-2025 02:12:38,15-06-2025 02:17:27,"4m - 48,386s",FAILED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:12:39,15-06-2025 02:13:01,"22,587s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:12:39,15-06-2025 02:12:42,"2,680s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:12:42,15-06-2025 02:12:55,"13,139s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:55,15-06-2025 02:12:55,"0,131s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:12:55,15-06-2025 02:12:56,"0,302s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:12:56,15-06-2025 02:12:56,"0,217s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:12:56,15-06-2025 02:12:56,"0,187s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:56,15-06-2025 02:12:56,"0,077s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:12:56,15-06-2025 02:12:56,"0,283s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:56,15-06-2025 02:12:56,"0,176s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:12:56,15-06-2025 02:12:57,"0,221s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,072s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,165s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,119s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,045s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,151s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,097s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,063s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:57,"0,001s",PASSED
+"else if (hobbies == ""reading"")",Chrome 137.0.0.0,,,15-06-2025 02:12:57,15-06-2025 02:12:58,"0,131s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:12:58,15-06-2025 02:12:58,"0,005s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:12:58,15-06-2025 02:12:58,"0,090s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:58,15-06-2025 02:12:58,"0,038s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:12:58,15-06-2025 02:12:58,"0,160s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:12:58,15-06-2025 02:12:58,"0,042s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:12:58,15-06-2025 02:12:59,"1,241s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:12:59,15-06-2025 02:13:00,"1,266s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:00,15-06-2025 02:13:00,"0,037s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:13:00,15-06-2025 02:13:01,"0,118s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:13:01,15-06-2025 02:13:01,"0,056s",PASSED
+"markPassed(""Validation case : "" + testNote)",Chrome 137.0.0.0,,,15-06-2025 02:13:01,15-06-2025 02:13:01,"0,037s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:13:01,15-06-2025 02:13:01,"0,526s",PASSED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:13:01,15-06-2025 02:13:19,"17,323s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:13:01,15-06-2025 02:13:02,"1,100s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:13:02,15-06-2025 02:13:13,"11,056s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:13,15-06-2025 02:13:14,"0,034s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,123s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,119s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,097s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,042s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,001s",PASSED
+"else if (gender == ""female"")",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,122s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,140s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,190s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:14,"0,035s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:13:14,15-06-2025 02:13:15,"0,172s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,173s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,124s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,238s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,073s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,039s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,095s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,001s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,070s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:15,"0,033s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:13:15,15-06-2025 02:13:16,"0,141s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:16,15-06-2025 02:13:16,"0,032s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:13:16,15-06-2025 02:13:17,"1,219s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:13:17,15-06-2025 02:13:18,"1,231s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:18,15-06-2025 02:13:18,"0,030s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:13:18,15-06-2025 02:13:18,"0,095s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:13:18,15-06-2025 02:13:18,"0,051s",PASSED
+"markPassed(""Validation case : "" + testNote)",Chrome 137.0.0.0,,,15-06-2025 02:13:18,15-06-2025 02:13:18,"0,003s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:13:18,15-06-2025 02:13:19,"0,401s",PASSED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:13:19,15-06-2025 02:13:39,"20,369s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:13:19,15-06-2025 02:13:20,"0,879s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:13:20,15-06-2025 02:13:33,"13,329s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:33,15-06-2025 02:13:33,"0,030s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:13:33,15-06-2025 02:13:33,"0,126s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:13:33,15-06-2025 02:13:33,"0,112s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:13:33,15-06-2025 02:13:33,"0,117s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:33,15-06-2025 02:13:33,"0,026s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:13:33,15-06-2025 02:13:34,"0,167s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,072s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,142s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,034s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,149s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,177s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,045s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,162s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,060s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,041s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,007s",PASSED
+"else if (hobbies == ""reading"")",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:34,"0,001s",PASSED
+"else if (hobbies == ""music"")",Chrome 137.0.0.0,,,15-06-2025 02:13:34,15-06-2025 02:13:35,"0,091s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:13:35,15-06-2025 02:13:35,"0,002s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:13:35,15-06-2025 02:13:35,"0,054s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:35,15-06-2025 02:13:35,"0,058s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:13:35,15-06-2025 02:13:35,"0,245s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:35,15-06-2025 02:13:35,"0,052s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:13:35,15-06-2025 02:13:36,"1,198s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:13:36,15-06-2025 02:13:37,"1,214s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:37,15-06-2025 02:13:37,"0,035s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:13:37,15-06-2025 02:13:38,"0,104s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:13:38,15-06-2025 02:13:38,"0,031s",PASSED
+"markPassed(""Validation case : "" + testNote)",Chrome 137.0.0.0,,,15-06-2025 02:13:38,15-06-2025 02:13:38,"0,003s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:13:38,15-06-2025 02:13:39,"1,511s",PASSED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:13:39,15-06-2025 02:13:57,"17,711s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:13:39,15-06-2025 02:13:40,"1,042s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:13:40,15-06-2025 02:13:52,"11,370s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,033s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,134s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,109s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,127s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,139s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,069s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,033s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,179s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:52,"0,034s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:13:52,15-06-2025 02:13:53,"0,184s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,146s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,038s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,194s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,073s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,082s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,001s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,001s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,068s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,035s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,178s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:53,"0,045s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:13:53,15-06-2025 02:13:55,"1,239s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:13:55,15-06-2025 02:13:56,"1,261s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:13:56,15-06-2025 02:13:56,"0,036s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:13:56,15-06-2025 02:13:56,"0,219s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:13:56,15-06-2025 02:13:56,"0,067s",PASSED
+"markPassed(""Validation case : "" + testNote)",Chrome 137.0.0.0,,,15-06-2025 02:13:56,15-06-2025 02:13:56,"0,002s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:13:56,15-06-2025 02:13:57,"0,541s",PASSED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:13:57,15-06-2025 02:14:17,"19,697s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:13:57,15-06-2025 02:13:58,"0,947s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:13:58,15-06-2025 02:14:10,"12,022s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:10,15-06-2025 02:14:10,"0,096s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:14:10,15-06-2025 02:14:10,"0,262s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:14:10,15-06-2025 02:14:10,"0,176s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:14:10,15-06-2025 02:14:11,"0,330s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:11,15-06-2025 02:14:11,"0,044s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:14:11,15-06-2025 02:14:11,"0,137s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:11,15-06-2025 02:14:11,"0,247s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:14:11,15-06-2025 02:14:11,"0,151s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:11,15-06-2025 02:14:11,"0,037s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:14:11,15-06-2025 02:14:12,"0,235s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:14:12,15-06-2025 02:14:12,"0,202s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:12,15-06-2025 02:14:12,"0,037s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:14:12,15-06-2025 02:14:12,"0,187s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:14:12,15-06-2025 02:14:12,"0,100s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:12,15-06-2025 02:14:12,"0,194s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:14:12,15-06-2025 02:14:13,"0,183s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:14:13,15-06-2025 02:14:13,"0,000s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:14:13,15-06-2025 02:14:13,"0,107s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:13,15-06-2025 02:14:13,"0,057s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:14:13,15-06-2025 02:14:13,"0,163s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:13,15-06-2025 02:14:13,"0,081s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:14:13,15-06-2025 02:14:15,"1,664s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:14:15,15-06-2025 02:14:16,"1,307s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:14:16,15-06-2025 02:14:16,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:14:16,15-06-2025 02:14:16,"0,113s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:14:16,15-06-2025 02:14:16,"0,034s",PASSED
+"markPassed(""Validation case : "" + testNote)",Chrome 137.0.0.0,,,15-06-2025 02:14:16,15-06-2025 02:14:16,"0,000s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:14:16,15-06-2025 02:14:17,"0,473s",PASSED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:15:12,15-06-2025 02:15:30,"17,197s",FAILED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:15:12,15-06-2025 02:15:14,"1,219s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:15:14,15-06-2025 02:15:26,"12,836s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:26,15-06-2025 02:15:27,"0,033s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,125s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,097s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,117s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,028s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,078s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,035s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,122s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:27,"0,217s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:15:27,15-06-2025 02:15:28,"0,156s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,038s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,152s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,084s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,035s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,000s",PASSED
+"else if (hobbies == ""reading"")",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,084s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,000s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,049s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,034s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,139s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:28,"0,072s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:15:28,15-06-2025 02:15:29,"1,163s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:15:29,15-06-2025 02:15:30,"0,221s",FAILED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:15:30,15-06-2025 02:15:49,"19,764s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:15:30,15-06-2025 02:15:31,"1,215s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:15:31,15-06-2025 02:15:32,"0,979s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:32,15-06-2025 02:15:43,"11,508s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:15:43,15-06-2025 02:15:44,"0,158s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,124s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,122s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,030s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,088s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,034s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,275s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:44,"0,044s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:15:44,15-06-2025 02:15:45,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,122s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,032s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,183s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,056s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,042s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,001s",PASSED
+"else if (hobbies == ""reading"")",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,086s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,000s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,063s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,032s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,145s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:45,"0,059s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:15:45,15-06-2025 02:15:47,"1,211s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:15:47,15-06-2025 02:15:48,"1,182s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:15:48,15-06-2025 02:15:48,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:15:48,15-06-2025 02:15:48,"0,079s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:15:48,15-06-2025 02:15:48,"0,039s",PASSED
+"markPassed(""Validation case : "" + testNote)",Chrome 137.0.0.0,,,15-06-2025 02:15:48,15-06-2025 02:15:48,"0,001s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:15:48,15-06-2025 02:15:49,"1,451s",PASSED
+,,,,,,,
+Test Cases/2. Normal Input/INP 1 - Valid data input to form,Chrome 137.0.0.0,,,15-06-2025 02:16:52,15-06-2025 02:17:08,"16,479s",FAILED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:16:52,15-06-2025 02:16:53,"1,500s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:16:53,15-06-2025 02:17:05,"11,627s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,027s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,135s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,110s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,129s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,149s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,000s",PASSED
+"else if (gender == ""female"")",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,000s",PASSED
+"else if (gender == ""other"")",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,000s",PASSED
+else,Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,002s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,040s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,087s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:05,"0,026s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:17:05,15-06-2025 02:17:06,"0,177s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,113s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,040s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,224s",PASSED
+"sendKeys(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), TAB.toString())",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,221s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,055s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,001s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,000s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,081s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:06,"0,057s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:17:06,15-06-2025 02:17:07,"0,181s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:07,15-06-2025 02:17:07,"0,041s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:17:07,15-06-2025 02:17:08,"1,196s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:17:08,15-06-2025 02:17:08,"0,231s",FAILED
+,,,,,,,
+Test Cases/2. Normal Input/INP 2 - Validate modal closed,Chrome 137.0.0.0,,,15-06-2025 02:17:08,15-06-2025 02:17:27,"18,645s",PASSED
+"openBrowser("""")",Chrome 137.0.0.0,,,15-06-2025 02:17:08,15-06-2025 02:17:10,"1,468s",PASSED
+navigateToUrl(baseUrl),Chrome 137.0.0.0,,,15-06-2025 02:17:10,15-06-2025 02:17:11,"1,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:11,15-06-2025 02:17:21,"9,723s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - First name""), firstName)",Chrome 137.0.0.0,,,15-06-2025 02:17:21,15-06-2025 02:17:21,"0,205s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Last name""), lastName)",Chrome 137.0.0.0,,,15-06-2025 02:17:21,15-06-2025 02:17:21,"0,108s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - User Email""), email)",Chrome 137.0.0.0,,,15-06-2025 02:17:21,15-06-2025 02:17:21,"0,573s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/radiobox - Male""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:21,15-06-2025 02:17:21,"0,044s",PASSED
+"if (gender == ""male"")",Chrome 137.0.0.0,,,15-06-2025 02:17:21,15-06-2025 02:17:22,"0,120s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:22,"0,046s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/txtfield - Mobile number""), mobile)",Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:22,"0,150s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:22,"0,043s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/txtfield - Birth date""))",Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:22,"0,445s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/specific date picker""))",Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:22,"0,128s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - Subjects""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:22,"0,040s",PASSED
+if (subjects != null),Chrome 137.0.0.0,,,15-06-2025 02:17:22,15-06-2025 02:17:23,"0,227s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/checkbox - Sports""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,033s",PASSED
+"if (hobbies == ""sports"")",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,001s",PASSED
+"else if (hobbies == ""reading"")",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,093s",PASSED
+"imagePath = getProjectDir() + ""/Include/image/gambarDummy.jpeg""",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,004s",PASSED
+"uploadFile(findTestObject(""Object Repository/Practice Form/file - Picture""), imagePath)",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,084s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/textarea - Current address""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,041s",PASSED
+"setText(findTestObject(""Object Repository/Practice Form/textarea - Current address""), currentAddress)",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,167s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/txtfield - State""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:23,"0,031s",PASSED
+if (state != null),Chrome 137.0.0.0,,,15-06-2025 02:17:23,15-06-2025 02:17:24,"1,199s",PASSED
+if (city != null),Chrome 137.0.0.0,,,15-06-2025 02:17:24,15-06-2025 02:17:25,"1,177s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Practice Form/button - Submit""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:25,15-06-2025 02:17:26,"0,031s",PASSED
+"click(findTestObject(""Object Repository/Practice Form/button - Submit""))",Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:26,"0,109s",PASSED
+"executeJavaScript(""document.getElementById('fixedban')?.remove();"", null)",Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:26,"0,079s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:26,"0,030s",PASSED
+"click(findTestObject(""Object Repository/Modal/btn - Modal close""))",Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:26,"0,092s",PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Modal/txt - Modal title""), 2, CONTINUE_ON_FAILURE)",Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:26,"0,233s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Practice Form/Title Name - Practice Form""), 0)",Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:26,"0,025s",PASSED
+closeBrowser(),Chrome 137.0.0.0,,,15-06-2025 02:17:26,15-06-2025 02:17:27,"0,548s",PASSED
